@@ -4,17 +4,11 @@ const nav = [
     items: [
       {
         text: 'ECMAScript',
-        items: [
-          { text: 'ECMAScript5', link: '/guide/JavaScript/ECMAScript/01' },
-          { text: 'ECMAScript6', link: '/guide/JavaScript/ECMAScript/02' }
-        ]
+        link: '/guide/JavaScript/ECMAScript/01'
       },
       {
-        text: 'WebApi',
-        items: [
-          { text: 'DOM', link: '/guide/JavaScript/WebApi/01' },
-          { text: 'BOM', link: '/guide/JavaScript/WebApi/02' },
-        ]
+        text: 'WebApi', 
+        link: '/guide/JavaScript/WebApi/01'  
       }
     ]
   }
@@ -25,10 +19,26 @@ const sidebar = {
     {
       text: 'ECMAScript5',
       items: [
-        { text: '简介与基础语法', link: '/guide/JavaScript/ECMAScript/01' },
+        { text: '简介', link: '/guide/JavaScript/ECMAScript/01' },
         {
-          text: '数据结构',
+          text: '语句和变量',
           link: '/guide/JavaScript/ECMAScript/01_01'
+        },
+        {
+          text: '条件语句',
+          link: '/guide/JavaScript/ECMAScript/01_02'
+        },
+        {
+          text: '循环语句',
+          link: '/guide/JavaScript/ECMAScript/01_03'
+        },
+        {
+          text: '数据类型',
+          link: '/guide/JavaScript/ECMAScript/01_04'
+        },
+        {
+          text: '数值类型相关方法',
+          link: '/guide/JavaScript/ECMAScript/01_05'
         }
       ]
     },
