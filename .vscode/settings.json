@@ -1,3 +1,17 @@
 {
-  "editor.formatOnSave": true // 每次保存的时候自动格式化
+  "editor.formatOnSave": true, // 每次保存的时候自动格式化
+  "prettier.tabWidth": 2,
+  "prettier.semi": false, // 是否加分号
+  "prettier.singleQuote": true, // 是否使用单引号替换爽引号
+  "prettier.trailingComma": "none", // 是否有尾随逗号
+  "prettier.printWidth": 80, // 最大长度
+  "prettier.proseWrap": "preserve", // Markdown 将散文包含在多行中
+  "prettier.embeddedLanguageFormatting": "auto", // 控制是否将更漂亮的格式引用嵌入文件中的代码
+  "prettier.arrowParens": "avoid", // 箭头函数只有一个参数时加不加括号
+  "prettier.bracketSpacing": true,
+  "prettier.endOfLine": "lf",
+  "prettier.htmlWhitespaceSensitivity": "css",
+  "prettier.insertPragma": false,
+  "prettier.jsxBracketSameLine": false, // 是否将 jsx > 放在 末尾 而不是另一行
+  "prettier.jsxSingleQuote": false // 是否在 jsx 中使用单引号
 }
