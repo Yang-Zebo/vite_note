@@ -17,7 +17,7 @@ const nav = [
 const sidebar = {
   '/guide/JavaScript/': [
     {
-      text: 'ECMAScript5',
+      text: 'ECMAScript入门',
       items: [
         { text: '简介', link: '/guide/JavaScript/ECMAScript/01' },
         {
@@ -39,16 +39,20 @@ const sidebar = {
         {
           text: '数值类型相关方法',
           link: '/guide/JavaScript/ECMAScript/01_05'
+        },
+        {
+          text: '运算符',
+          link: '/guide/JavaScript/ECMAScript/01_06'
         }
       ]
     },
     {
-      text: 'ECMAScript6',
+      text: 'ECMAScript进阶',
       items: [
-        { text: '简介与基础语法', link: '/guide/JavaScript/ECMAScript/01' },
+        { text: '补充', link: '/guide/JavaScript/ECMAScript/02' },
         {
-          text: '数据结构',
-          link: '/guide/JavaScript/ECMAScript/01_01'
+          text: '222',
+          link: '/guide/JavaScript/ECMAScript/02_01'
         }
       ]
     },
