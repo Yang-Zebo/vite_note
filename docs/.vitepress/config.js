@@ -7,8 +7,8 @@ const nav = [
         link: '/guide/JavaScript/ECMAScript/01'
       },
       {
-        text: 'WebApi', 
-        link: '/guide/JavaScript/WebApi/01'  
+        text: 'WebApi',
+        link: '/guide/JavaScript/WebApi/01'
       }
     ]
   }
@@ -53,6 +53,10 @@ const sidebar = {
         {
           text: '结构赋值',
           link: '/guide/JavaScript/ECMAScript/02_01'
+        },
+        {
+          text: '字符串扩展与新增方法',
+          link: '/guide/JavaScript/ECMAScript/02_03'
         }
       ]
     },
@@ -251,7 +255,6 @@ export default {
   lastUpdated: true, // 最近更新时间
   head: [
     ['link', { rel: 'icon', href: '/images/logo.jpg' }] // 设置浏览器标签页图标
-
   ],
   themeConfig: {
     logo: '/images/logo.jpg',
