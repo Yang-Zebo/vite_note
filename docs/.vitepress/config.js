@@ -49,9 +49,9 @@ const sidebar = {
     {
       text: 'ECMAScript进阶',
       items: [
-        { text: '补充', link: '/guide/JavaScript/ECMAScript/02' },
+        { text: '变量声明', link: '/guide/JavaScript/ECMAScript/02' },
         {
-          text: '222',
+          text: '结构赋值',
           link: '/guide/JavaScript/ECMAScript/02_01'
         }
       ]
