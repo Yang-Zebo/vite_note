@@ -37,11 +37,11 @@ const sidebar = {
           link: '/guide/JavaScript/ECMAScript/01_04'
         },
         {
-          text: '数值类型相关方法',
+          text: '运算符',
           link: '/guide/JavaScript/ECMAScript/01_05'
         },
         {
-          text: '运算符',
+          text: '标准库',
           link: '/guide/JavaScript/ECMAScript/01_06'
         }
       ]
