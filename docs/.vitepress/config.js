@@ -56,7 +56,19 @@ const sidebar = {
         },
         {
           text: '字符串扩展与新增方法',
+          link: '/guide/JavaScript/ECMAScript/02_02'
+        },
+        {
+          text: '数值扩展与新增方法',
           link: '/guide/JavaScript/ECMAScript/02_03'
+        },
+        {
+          text: '函数扩展',
+          link: '/guide/JavaScript/ECMAScript/02_04'
+        },
+        {
+          text: '数组扩展',
+          link: '/guide/JavaScript/ECMAScript/02_05'
         }
       ]
     },
