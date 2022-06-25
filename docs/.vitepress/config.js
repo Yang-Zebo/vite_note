@@ -69,6 +69,10 @@ const sidebar = {
         {
           text: '数组扩展',
           link: '/guide/JavaScript/ECMAScript/02_05'
+        },
+        {
+          text: '对象扩展',
+          link: '/guide/JavaScript/ECMAScript/02_06'
         }
       ]
     },
