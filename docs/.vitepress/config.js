@@ -73,15 +73,23 @@ const sidebar = {
         {
           text: '对象扩展',
           link: '/guide/JavaScript/ECMAScript/02_06'
+        },
+        {
+          text: '对象新增方法',
+          link: '/guide/JavaScript/ECMAScript/02_07'
+        },
+        {
+          text: '模块化',
+          link: '/guide/JavaScript/ECMAScript/02_09'
         }
       ]
     },
     {
-      text: 'Essentials',
+      text: 'ECMAScript深入',
       items: [
         {
-          text: 'Creating an Application',
-          link: '/guide/essentials/application'
+          text: '基础补充',
+          link: '/guide/JavaScript/ECMAScript/03'
         },
         {
           text: 'Template Syntax',
