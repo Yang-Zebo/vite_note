@@ -92,29 +92,29 @@ const sidebar = {
           link: '/guide/JavaScript/ECMAScript/03'
         },
         {
-          text: 'Template Syntax',
-          link: '/guide/essentials/template-syntax'
+          text: '对象创建与操作',
+          link: '/guide/JavaScript/ECMAScript/03_01'
         },
         {
-          text: 'Reactivity Fundamentals',
-          link: '/guide/essentials/reactivity-fundamentals'
+          text: 'Map,Set 相关',
+          link: '/guide/JavaScript/ECMAScript/03_02'
         },
         {
-          text: 'Computed Properties',
-          link: '/guide/essentials/computed'
+          text: 'Symbol 类型',
+          link: '/guide/JavaScript/ECMAScript/03_03'
         },
         {
-          text: 'Class and Style Bindings',
-          link: '/guide/essentials/class-and-style'
+          text: 'Promise 对象',
+          link: '/guide/JavaScript/ECMAScript/03_04'
         },
         {
-          text: 'Conditional Rendering',
-          link: '/guide/essentials/conditional'
+          text: 'Reflect 对象',
+          link: '/guide/JavaScript/ECMAScript/03_05'
         },
-        { text: 'List Rendering', link: '/guide/essentials/list' },
+        { text: 'Proxy 对象', link: '/guide/JavaScript/ECMAScript/03_06' },
         {
-          text: 'Event Handling',
-          link: '/guide/essentials/event-handling'
+          text: 'Generator 与 async',
+          link: '/guide/JavaScript/ECMAScript/03_07'
         },
         { text: 'Form Input Bindings', link: '/guide/essentials/forms' },
         {
