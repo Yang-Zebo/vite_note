@@ -155,7 +155,24 @@ const sidebar = {
     }
   ],
   '/guide/JavaScript/WebApi/': [
-    
+    {
+      text: 'DOM',
+      items: [
+        { text: '简介', link: '/guide/JavaScript/WebApi/01/01_00' }
+      ]
+    },
+    {
+      text: 'BOM',
+      items: [
+        { text: '简介', link: '/guide/JavaScript/WebApi/02/02_00' }
+      ]
+    },
+    {
+      text: '事件',
+      items: [
+        { text: '简介', link: '/guide/JavaScript/WebApi/03/03_00' }
+      ]
+    },
   ]
 }
 
