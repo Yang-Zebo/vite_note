@@ -4,18 +4,18 @@ const nav = [
     items: [
       {
         text: 'ECMAScript',
-        link: '/guide/JavaScript/ECMAScript/01'
+        link: '/guide/JavaScript/ECMAScript/01/01_00'
       },
       {
         text: 'WebApi',
-        link: '/guide/JavaScript/WebApi/01'
+        link: '/guide/JavaScript/WebApi/01/01_00'
       }
     ]
   }
 ]
 
 const sidebar = {
-  '/guide/JavaScript/': [
+  '/guide/JavaScript/ECMAScript/': [
     {
       text: 'ECMAScript入门',
       items: [
@@ -125,139 +125,37 @@ const sidebar = {
           text: 'this 指向',
           link: '/guide/JavaScript/ECMAScript/04/04_00'
         },
-        { text: 'Props', link: '/guide/components/props' },
-        { text: 'Events', link: '/guide/components/events' },
+        { text: '内存相关', link: '/guide/JavaScript/ECMAScript/04/04_01' },
         {
-          text: 'Fallthrough Attributes',
-          link: '/guide/components/attrs'
+          text: '深浅拷贝',
+          link: '/guide/JavaScript/ECMAScript/04/04_02'
         },
-        { text: 'Slots', link: '/guide/components/slots' },
+        { text: '原型与原型链', link: '/guide/JavaScript/ECMAScript/04/04_03' },
         {
-          text: 'Provide / inject',
-          link: '/guide/components/provide-inject'
-        },
-        {
-          text: 'Async Components',
-          link: '/guide/components/async'
-        }
-      ]
-    },
-    {
-      text: 'Reusability',
-      items: [
-        {
-          text: 'Composables',
-          link: '/guide/reusability/composables'
+          text: '闭包与递归',
+          link: '/guide/JavaScript/ECMAScript/04/04_04'
         },
         {
-          text: 'Custom Directives',
-          link: '/guide/reusability/custom-directives'
-        },
-        { text: 'Plugins', link: '/guide/reusability/plugins' }
-      ]
-    },
-    {
-      text: 'Built-in Components',
-      items: [
-        { text: 'Transition', link: '/guide/built-ins/transition' },
-        {
-          text: 'TransitionGroup',
-          link: '/guide/built-ins/transition-group'
-        },
-        { text: 'KeepAlive', link: '/guide/built-ins/keep-alive' },
-        { text: 'Teleport', link: '/guide/built-ins/teleport' },
-        { text: 'Suspense', link: '/guide/built-ins/suspense' }
-      ]
-    },
-    {
-      text: 'Scaling Up',
-      items: [
-        { text: 'Single-File Components', link: '/guide/scaling-up/sfc' },
-        { text: 'Tooling', link: '/guide/scaling-up/tooling' },
-        { text: 'Routing', link: '/guide/scaling-up/routing' },
-        {
-          text: 'State Management',
-          link: '/guide/scaling-up/state-management'
-        },
-        { text: 'Testing', link: '/guide/scaling-up/testing' },
-        {
-          text: 'Server-Side Rendering (SSR)',
-          link: '/guide/scaling-up/ssr'
-        }
-      ]
-    },
-    {
-      text: 'Best Practices',
-      items: [
-        {
-          text: 'Production Deployment',
-          link: '/guide/best-practices/production-deployment'
+          text: '事件流与事件委托',
+          link: '/guide/JavaScript/ECMAScript/04/04_05'
         },
         {
-          text: 'Performance',
-          link: '/guide/best-practices/performance'
+          text: '手写简易 HashMap',
+          link: '/guide/JavaScript/ECMAScript/04/04_06'
         },
         {
-          text: 'Accessibility',
-          link: '/guide/best-practices/accessibility'
+          text: '事件循环 event loop',
+          link: '/guide/JavaScript/ECMAScript/04/04_07'
         },
         {
-          text: 'Security',
-          link: '/guide/best-practices/security'
-        }
-      ]
-    },
-    {
-      text: 'TypeScript',
-      items: [
-        { text: 'Overview', link: '/guide/typescript/overview' },
-        {
-          text: 'TS with Composition API',
-          link: '/guide/typescript/composition-api'
-        },
-        {
-          text: 'TS with Options API',
-          link: '/guide/typescript/options-api'
-        }
-      ]
-    },
-    {
-      text: 'Extra Topics',
-      items: [
-        {
-          text: 'Ways of Using Vue',
-          link: '/guide/extras/ways-of-using-vue'
-        },
-        {
-          text: 'Composition API FAQ',
-          link: '/guide/extras/composition-api-faq'
-        },
-        {
-          text: 'Reactivity in Depth',
-          link: '/guide/extras/reactivity-in-depth'
-        },
-        {
-          text: 'Rendering Mechanism',
-          link: '/guide/extras/rendering-mechanism'
-        },
-        {
-          text: 'Render Functions & JSX',
-          link: '/guide/extras/render-function'
-        },
-        {
-          text: 'Vue and Web Components',
-          link: '/guide/extras/web-components'
-        },
-        {
-          text: 'Animation Techniques',
-          link: '/guide/extras/animation'
-        },
-        {
-          text: 'Reactivity Transform',
-          link: '/guide/extras/reactivity-transform'
+          text: '浏览器与网络相关',
+          link: '/guide/JavaScript/ECMAScript/04/04_08'
         }
       ]
     }
+  ],
+  '/guide/JavaScript/WebApi/': [
+    
   ]
 }
 
