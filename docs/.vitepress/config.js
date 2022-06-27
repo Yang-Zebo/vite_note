@@ -19,68 +19,68 @@ const sidebar = {
     {
       text: 'ECMAScript入门',
       items: [
-        { text: '简介', link: '/guide/JavaScript/ECMAScript/01' },
+        { text: '简介', link: '/guide/JavaScript/ECMAScript/01/01_00' },
         {
           text: '语句和变量',
-          link: '/guide/JavaScript/ECMAScript/01_01'
+          link: '/guide/JavaScript/ECMAScript/01/01_01'
         },
         {
           text: '条件语句',
-          link: '/guide/JavaScript/ECMAScript/01_02'
+          link: '/guide/JavaScript/ECMAScript/01/01_02'
         },
         {
           text: '循环语句',
-          link: '/guide/JavaScript/ECMAScript/01_03'
+          link: '/guide/JavaScript/ECMAScript/01/01_03'
         },
         {
           text: '数据类型',
-          link: '/guide/JavaScript/ECMAScript/01_04'
+          link: '/guide/JavaScript/ECMAScript/01/01_04'
         },
         {
           text: '运算符',
-          link: '/guide/JavaScript/ECMAScript/01_05'
+          link: '/guide/JavaScript/ECMAScript/01/01_05'
         },
         {
           text: '标准库',
-          link: '/guide/JavaScript/ECMAScript/01_06'
+          link: '/guide/JavaScript/ECMAScript/01/01_06'
         }
       ]
     },
     {
       text: 'ECMAScript进阶',
       items: [
-        { text: '变量声明', link: '/guide/JavaScript/ECMAScript/02' },
+        { text: '变量声明', link: '/guide/JavaScript/ECMAScript/02/02_00' },
         {
           text: '结构赋值',
-          link: '/guide/JavaScript/ECMAScript/02_01'
+          link: '/guide/JavaScript/ECMAScript/02/02_01'
         },
         {
           text: '字符串扩展与新增方法',
-          link: '/guide/JavaScript/ECMAScript/02_02'
+          link: '/guide/JavaScript/ECMAScript/02/02_02'
         },
         {
           text: '数值扩展与新增方法',
-          link: '/guide/JavaScript/ECMAScript/02_03'
+          link: '/guide/JavaScript/ECMAScript/02/02_03'
         },
         {
           text: '函数扩展',
-          link: '/guide/JavaScript/ECMAScript/02_04'
+          link: '/guide/JavaScript/ECMAScript/02/02_04'
         },
         {
           text: '数组扩展',
-          link: '/guide/JavaScript/ECMAScript/02_05'
+          link: '/guide/JavaScript/ECMAScript/02/02_05'
         },
         {
           text: '对象扩展',
-          link: '/guide/JavaScript/ECMAScript/02_06'
+          link: '/guide/JavaScript/ECMAScript/02/02_06'
         },
         {
           text: '对象新增方法',
-          link: '/guide/JavaScript/ECMAScript/02_07'
+          link: '/guide/JavaScript/ECMAScript/02/02_07'
         },
         {
           text: '模块化',
-          link: '/guide/JavaScript/ECMAScript/02_09'
+          link: '/guide/JavaScript/ECMAScript/02/02_09'
         }
       ]
     },
@@ -89,52 +89,41 @@ const sidebar = {
       items: [
         {
           text: '基础补充',
-          link: '/guide/JavaScript/ECMAScript/03'
+          link: '/guide/JavaScript/ECMAScript/03/03_00'
         },
         {
           text: '对象创建与操作',
-          link: '/guide/JavaScript/ECMAScript/03_01'
+          link: '/guide/JavaScript/ECMAScript/03/03_01'
         },
         {
           text: 'Map,Set 相关',
-          link: '/guide/JavaScript/ECMAScript/03_02'
+          link: '/guide/JavaScript/ECMAScript/03/03_02'
         },
         {
           text: 'Symbol 类型',
-          link: '/guide/JavaScript/ECMAScript/03_03'
+          link: '/guide/JavaScript/ECMAScript/03/03_03'
         },
         {
           text: 'Promise 对象',
-          link: '/guide/JavaScript/ECMAScript/03_04'
+          link: '/guide/JavaScript/ECMAScript/03/03_04'
         },
         {
           text: 'Reflect 对象',
-          link: '/guide/JavaScript/ECMAScript/03_05'
+          link: '/guide/JavaScript/ECMAScript/03/03_05'
         },
-        { text: 'Proxy 对象', link: '/guide/JavaScript/ECMAScript/03_06' },
+        { text: 'Proxy 对象', link: '/guide/JavaScript/ECMAScript/03/03_06' },
         {
           text: 'Generator 与 async',
-          link: '/guide/JavaScript/ECMAScript/03_07'
-        },
-        { text: 'Form Input Bindings', link: '/guide/essentials/forms' },
-        {
-          text: 'Lifecycle Hooks',
-          link: '/guide/essentials/lifecycle'
-        },
-        { text: 'Watchers', link: '/guide/essentials/watchers' },
-        { text: 'Template Refs', link: '/guide/essentials/template-refs' },
-        {
-          text: 'Components Basics',
-          link: '/guide/essentials/component-basics'
+          link: '/guide/JavaScript/ECMAScript/03/03_07'
         }
       ]
     },
     {
-      text: 'Components In-Depth',
+      text: '难点拓展',
       items: [
         {
-          text: 'Registration',
-          link: '/guide/components/registration'
+          text: 'this 指向',
+          link: '/guide/JavaScript/ECMAScript/04/04_00'
         },
         { text: 'Props', link: '/guide/components/props' },
         { text: 'Events', link: '/guide/components/events' },
