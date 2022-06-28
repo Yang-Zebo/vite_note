@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /guide/JavaScript/ECMAScript/01
+      link: /guide/JavaScript/ECMAScript/01/01_00
     - theme: alt
       text: View on GitHub
       link: https://github.com/Yang-Zebo

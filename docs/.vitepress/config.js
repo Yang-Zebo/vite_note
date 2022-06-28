@@ -171,9 +171,9 @@ const sidebar = {
       text: '事件',
       items: [
         { text: '简介', link: '/guide/JavaScript/WebApi/03/03_00' },
-        { text: 'Event 对象', link: '/guide/JavaScript/WebApi/03/03_01' },
-        { text: '简介', link: '/guide/JavaScript/WebApi/03/03_00' },
-        { text: '简介', link: '/guide/JavaScript/WebApi/03/03_00' }
+        { text: '事件模型', link: '/guide/JavaScript/WebApi/03/03_01' },
+        { text: 'Event 对象', link: '/guide/JavaScript/WebApi/03/03_02' },
+        { text: '鼠标事件', link: '/guide/JavaScript/WebApi/03/03_03' }
       ]
     },
   ]
