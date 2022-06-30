@@ -79,6 +79,10 @@ const sidebar = {
           link: '/guide/JavaScript/ECMAScript/02/02_07'
         },
         {
+          text: '运算符扩展',
+          link: '/guide/JavaScript/ECMAScript/02/02_08'
+        },
+        {
           text: '模块化',
           link: '/guide/JavaScript/ECMAScript/02/02_09'
         }
@@ -175,7 +179,8 @@ const sidebar = {
         { text: 'Event 对象', link: '/guide/JavaScript/WebApi/03/03_02' },
         { text: '鼠标事件', link: '/guide/JavaScript/WebApi/03/03_03' },
         { text: '键盘事件', link: '/guide/JavaScript/WebApi/03/03_04' },
-        { text: '表单事件', link: '/guide/JavaScript/WebApi/03/03_05' }
+        { text: '表单事件', link: '/guide/JavaScript/WebApi/03/03_05' },
+        { text: '触摸事件', link: '/guide/JavaScript/WebApi/03/03_06' },
       ]
     },
   ]
