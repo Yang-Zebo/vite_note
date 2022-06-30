@@ -181,6 +181,7 @@ const sidebar = {
         { text: '键盘事件', link: '/guide/JavaScript/WebApi/03/03_04' },
         { text: '表单事件', link: '/guide/JavaScript/WebApi/03/03_05' },
         { text: '触摸事件', link: '/guide/JavaScript/WebApi/03/03_06' },
+        { text: '其他事件', link: '/guide/JavaScript/WebApi/03/03_07' },
       ]
     },
   ]
