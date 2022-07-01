@@ -197,6 +197,9 @@ export default {
   head: [
     ['link', { rel: 'icon', href: '/images/logo.jpg' }] // 设置浏览器标签页图标
   ],
+  markdown: {
+    lineNumbers: true
+  },
   themeConfig: {
     logo: '/images/logo.jpg',
     nav,
