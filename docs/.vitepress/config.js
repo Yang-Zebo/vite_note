@@ -162,7 +162,8 @@ const sidebar = {
     {
       text: 'DOM',
       items: [
-        { text: '简介', link: '/guide/JavaScript/WebApi/01/01_00' }
+        { text: 'DOM 概述', link: '/guide/JavaScript/WebApi/01/01_00' },
+        { text: 'Node 接口', link: '/guide/JavaScript/WebApi/01/01_01' },
       ]
     },
     {
