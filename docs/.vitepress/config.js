@@ -205,7 +205,7 @@ export default {
     nav,
     sidebar,
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Yang-Zebo/vuepress_node' }
+      { icon: 'github', link: 'https://github.com/Yang-Zebo/vite_note' }
     ],
     footer: {
       copyright: `Copyright © 2014-${new Date().getFullYear()} Evan You`
