@@ -4,11 +4,42 @@ const nav = [
     items: [
       {
         text: 'ECMAScript',
-        link: '/guide/JavaScript/ECMAScript/01/01_00'
+        items: [
+          { 
+            text: '语法知识',
+            link: '/guide/JavaScript/ECMAScript/01/01_00'
+          },
+          {
+            text: '难点拓展',
+            link: '/guide/JavaScript/ECMAScript/04/04_00'
+          }
+        ]
       },
       {
         text: 'WebApi',
-        link: '/guide/JavaScript/WebApi/01/01_00'
+        items: [
+          {
+            text: 'DOM',
+            link: '/guide/JavaScript/WebApi/01/01_00'
+          },
+          {
+            text: 'BOM',
+            link: '/guide/JavaScript/WebApi/02/02_00'
+          },
+          {
+            text: '事件',
+            link: '/guide/JavaScript/WebApi/03/03_00'
+          }
+        ]
+      }
+    ]
+  },
+  {
+    text: 'NodeJS',
+    items: [
+      {
+        text: 'NodeApi',
+        link: '/guide/NodeJs/NodeApi/01/01_00'
       }
     ]
   }
@@ -184,6 +215,14 @@ const sidebar = {
         { text: '表单事件', link: '/guide/JavaScript/WebApi/03/03_05' },
         { text: '触摸事件', link: '/guide/JavaScript/WebApi/03/03_06' },
         { text: '其他事件', link: '/guide/JavaScript/WebApi/03/03_07' },
+      ]
+    },
+  ],
+  '/guide/NodeJs/NodeApi/': [
+    {
+      text: 'NodeApi',
+      items: [
+        { text: 'Node 模块化与模块化开发', link: '/guide/NodeJs/NodeApi/01/01_00' },
       ]
     },
   ]
