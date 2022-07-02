@@ -6,11 +6,11 @@ const nav = [
         text: 'ECMAScript',
         items: [
           { 
-            text: '语法知识',
+            text: '语法',
             link: '/guide/JavaScript/ECMAScript/01/01_00'
           },
           {
-            text: '难点拓展',
+            text: '拓展',
             link: '/guide/JavaScript/ECMAScript/04/04_00'
           }
         ]
@@ -38,8 +38,30 @@ const nav = [
     text: 'NodeJS',
     items: [
       {
-        text: 'NodeApi',
+        text: 'Node api',
         link: '/guide/NodeJs/NodeApi/01/01_00'
+      }
+    ]
+  },
+  {
+    text: 'Frame',
+    items: [
+      {
+        text: 'Vue',
+        items: [
+          { 
+            text: '语法',
+            link: '/guide/Frame/Vue/01/01_00'
+          },
+          { 
+            text: '核心库',
+            link: '/guide/Frame/Vue/02/02_00'
+          }
+        ]
+      },
+      {
+        text: 'React',
+        link: '/guide/Frame/React/01/01_00'
       }
     ]
   }
@@ -220,12 +242,27 @@ const sidebar = {
   ],
   '/guide/NodeJs/NodeApi/': [
     {
-      text: 'NodeApi',
+      text: 'NodeJs 入门',
       items: [
         { text: 'Node 模块化与模块化开发', link: '/guide/NodeJs/NodeApi/01/01_00' },
       ]
     },
+  ],
+  '/guide/Frame/Vue/': [
+    {
+      text: '指令',
+      items: [
+        { text: '原生指令', link: '/guide/Frame/Vue/01/01_00' },
+      ]
+    },
+    {
+      text: '核心库',
+      items: [
+        { text: 'vuex', link: '/guide/Frame/Vue/02/02_00' },
+      ]
+    },
   ]
+  
 }
 
 export default {
