@@ -194,14 +194,15 @@ export default {
   title: 'yzb-note', // 站点标题
   description: 'Sorting out personal front-end knowledge and notes', // 网站的描述。这将呈现为<meta>页面 HTML 中的标签
   lastUpdated: true, // 最近更新时间
+  ignoreDeadLinks: true,
   head: [
-    ['link', { rel: 'icon', href: './images/logo.jpg' }] // 设置浏览器标签页图标
+    ['link', { rel: 'icon', href: '/images/logo.jpg' }] // 设置浏览器标签页图标
   ],
   markdown: {
     lineNumbers: true
   },
   themeConfig: {
-    logo: './images/logo.jpg',
+    logo: '/images/logo.jpg',
     nav,
     sidebar,
     socialLinks: [

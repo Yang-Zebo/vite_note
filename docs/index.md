@@ -15,11 +15,11 @@ hero:
 
 features:
   - title: Javascript
-    details: The website contains JavaScript notes, Including ECMAScript syntax, document object model and browser object model note collation.
-  - title: frame
-    details: With Markdown-centered content,
-  - title: Power of Vue meets Markdown
-    details: Enhance your content with all the features of Vue in Markdown, while being able to customize your site with Vue.
-  - title: Fully static yet still dynamic
-    details: Go wild with true SSG + SPA architecture. Static on page load, but engage users with 100% interactivity from there.
+    details: The website contains JavaScript learning notes, including ECMAScript syntax, document object model and browser object model knowledge points.
+  - title: Frame
+    details: The website records the learning notes and knowledge collation of Vue and react, which are used to build web interfaces, excellent performance and feature rich JS framework libraries
+  - title: NodeJs
+    details: The website records the knowledge points about nodejs encountered in learning, including the use of relevant frameworks and databases.
+  - title: Others
+    details: The website records the expanded knowledge used in other development and collects some excellent articles and videos.
 ---
