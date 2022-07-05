@@ -50,11 +50,11 @@ const nav = [
         text: 'Vue',
         items: [
           { 
-            text: '语法',
+            text: '基础',
             link: '/guide/Frame/Vue/01/01_00'
           },
           { 
-            text: '核心库',
+            text: '进阶',
             link: '/guide/Frame/Vue/02/02_00'
           }
         ]
@@ -250,19 +250,23 @@ const sidebar = {
   ],
   '/guide/Frame/Vue/': [
     {
-      text: '指令',
+      text: '基础使用',
       items: [
-        { text: '原生指令', link: '/guide/Frame/Vue/01/01_00' },
+        { text: '指令使用', link: '/guide/Frame/Vue/01/01_00' },
+        { text: '数据绑定', link: '/guide/Frame/Vue/01/01_01' },
+        { text: '事件绑定', link: '/guide/Frame/Vue/01/01_02' },
+        { text: '样式绑定', link: '/guide/Frame/Vue/01/01_03' },
+        { text: '列表渲染', link: '/guide/Frame/Vue/01/01_04' },
+        { text: '条件渲染', link: '/guide/Frame/Vue/01/01_05' },
       ]
     },
     {
-      text: '核心库',
+      text: '进阶使用',
       items: [
         { text: 'vuex', link: '/guide/Frame/Vue/02/02_00' },
       ]
-    },
-  ]
-  
+    }
+  ],
 }
 
 export default {
