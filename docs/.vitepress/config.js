@@ -50,11 +50,11 @@ const nav = [
         text: 'Vue',
         items: [
           { 
-            text: '基础',
+            text: '语法',
             link: '/guide/Frame/Vue/01/01_00'
           },
           { 
-            text: '进阶',
+            text: '核心库',
             link: '/guide/Frame/Vue/02/02_00'
           }
         ]
@@ -261,7 +261,7 @@ const sidebar = {
       ]
     },
     {
-      text: '进阶使用',
+      text: '核心库',
       items: [
         { text: 'vuex', link: '/guide/Frame/Vue/02/02_00' },
       ]
