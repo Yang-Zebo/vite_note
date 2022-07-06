@@ -64,6 +64,15 @@ const nav = [
         link: '/guide/Frame/React/01/01_00'
       }
     ]
+  },
+  {
+    text: 'Others',
+    items: [
+      {
+        text: '知识补充',
+        link: '/guide/Others/01/01_00'
+      }
+    ]
   }
 ]
 
@@ -267,6 +276,14 @@ const sidebar = {
       ]
     }
   ],
+  '/guide/Others/': [
+    {
+      text: '知识补充',
+      items: [
+        { text: 'git使用', link: '/guide/Others/01/01_00' }
+      ]
+    },
+  ]
 }
 
 export default {
