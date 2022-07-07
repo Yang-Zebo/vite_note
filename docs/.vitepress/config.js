@@ -227,6 +227,7 @@ const sidebar = {
         { text: 'DOM 概述', link: '/guide/JavaScript/WebApi/01/01_00' },
         { text: 'Node 接口', link: '/guide/JavaScript/WebApi/01/01_01' },
         { text: '节点集合接口', link: '/guide/JavaScript/WebApi/01/01_02' },
+        { text: 'ParentNode 与 ChildNode 接口', link: '/guide/JavaScript/WebApi/01/01_03' },
       ]
     },
     {
