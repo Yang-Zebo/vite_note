@@ -214,8 +214,12 @@ const sidebar = {
           link: '/guide/JavaScript/ECMAScript/04/04_07'
         },
         {
-          text: '浏览器与网络相关',
+          text: '网络相关',
           link: '/guide/JavaScript/ECMAScript/04/04_08'
+        },
+        {
+          text: '前端存储',
+          link: '/guide/JavaScript/ECMAScript/04/04_09'
         }
       ]
     }
