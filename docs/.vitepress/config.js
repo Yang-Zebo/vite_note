@@ -260,7 +260,8 @@ const sidebar = {
       text: 'NodeJs 入门',
       items: [
         { text: 'Node 模块化与模块化开发', link: '/guide/NodeJs/NodeApi/01/01_00' },
-        { text: 'Node 常用模块与包管理工具', link: '/guide/NodeJs/NodeApi/01/01_01' }
+        { text: 'Node 常用模块', link: '/guide/NodeJs/NodeApi/01/01_01' },
+        { text: 'Node 包管理工具', link: '/guide/NodeJs/NodeApi/01/01_02'}
       ]
     },
   ],
