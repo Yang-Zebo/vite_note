@@ -5,6 +5,8 @@ hero:
   name: yang-zebo
   text: 的学习笔记整理
   tagline: Sorting out personal front-end knowledge and notes
+  image:
+    src: /images/logo.jpg
   actions:
     - theme: brand
       text: Get Started
