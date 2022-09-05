@@ -64,6 +64,15 @@ const nav = [
         link: '/guide/Frame/React/01/01_00'
       }
     ]
+  },
+  {
+    text: 'Others',
+    items: [
+      {
+        text: '知识补充',
+        link: '/guide/Others/01/01_00'
+      }
+    ]
   }
 ]
 
@@ -205,8 +214,12 @@ const sidebar = {
           link: '/guide/JavaScript/ECMAScript/04/04_07'
         },
         {
-          text: '浏览器与网络相关',
+          text: '网络相关',
           link: '/guide/JavaScript/ECMAScript/04/04_08'
+        },
+        {
+          text: '前端存储',
+          link: '/guide/JavaScript/ECMAScript/04/04_09'
         }
       ]
     }
@@ -218,6 +231,8 @@ const sidebar = {
         { text: 'DOM 概述', link: '/guide/JavaScript/WebApi/01/01_00' },
         { text: 'Node 接口', link: '/guide/JavaScript/WebApi/01/01_01' },
         { text: '节点集合接口', link: '/guide/JavaScript/WebApi/01/01_02' },
+        { text: 'ParentNode 与 ChildNode 接口', link: '/guide/JavaScript/WebApi/01/01_03' },
+        { text: 'Document 节点', link: '/guide/JavaScript/WebApi/01/01_04' },
       ]
     },
     {
@@ -245,6 +260,8 @@ const sidebar = {
       text: 'NodeJs 入门',
       items: [
         { text: 'Node 模块化与模块化开发', link: '/guide/NodeJs/NodeApi/01/01_00' },
+        { text: 'Node 常用模块', link: '/guide/NodeJs/NodeApi/01/01_01' },
+        { text: 'Node 包管理工具', link: '/guide/NodeJs/NodeApi/01/01_02'}
       ]
     },
   ],
@@ -267,6 +284,14 @@ const sidebar = {
       ]
     }
   ],
+  '/guide/Others/': [
+    {
+      text: '知识补充',
+      items: [
+        { text: 'git使用', link: '/guide/Others/01/01_00' }
+      ]
+    },
+  ]
 }
 
 export default {
