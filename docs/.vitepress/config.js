@@ -38,7 +38,7 @@ const nav = [
     text: 'NodeJS',
     items: [
       {
-        text: 'Node api',
+        text: 'NodeJs 入门',
         link: '/guide/NodeJs/NodeApi/01/01_00'
       }
     ]
