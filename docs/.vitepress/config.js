@@ -288,7 +288,8 @@ const sidebar = {
     {
       text: '知识补充',
       items: [
-        { text: 'git使用', link: '/guide/Others/01/01_00' }
+        { text: 'Git 使用', link: '/guide/Others/01/01_00' },
+        { text: '学习网站', link: '/guide/Others/01/01_01' }
       ]
     },
   ]
