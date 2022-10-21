@@ -36,28 +36,14 @@ const nav = [
   },
   {
     text: 'NodeJS',
-    items: [
-      {
-        text: 'NodeJs 入门',
-        link: '/guide/NodeJs/NodeApi/01/01_00'
-      }
-    ]
+    link: '/guide/NodeJs/NodeApi/01/01_00'
   },
   {
     text: 'Frame',
     items: [
       {
         text: 'Vue',
-        items: [
-          { 
-            text: '语法',
-            link: '/guide/Frame/Vue/01/01_00'
-          },
-          { 
-            text: '核心库',
-            link: '/guide/Frame/Vue/02/02_00'
-          }
-        ]
+        link: '/guide/Frame/Vue/01/01_00'
       },
       {
         text: 'React',
@@ -257,30 +243,20 @@ const sidebar = {
   ],
   '/guide/NodeJs/NodeApi/': [
     {
-      text: 'NodeJs 入门',
+      text: 'NodeJs',
       items: [
-        { text: 'Node 模块化与模块化开发', link: '/guide/NodeJs/NodeApi/01/01_00' },
-        { text: 'Node 常用模块', link: '/guide/NodeJs/NodeApi/01/01_01' },
-        { text: 'Node 包管理工具', link: '/guide/NodeJs/NodeApi/01/01_02'}
+        { text: '模块化与模块化', link: '/guide/NodeJs/NodeApi/01/01_00' },
+        { text: '常用模块', link: '/guide/NodeJs/NodeApi/01/01_01' },
+        { text: '包管理工具', link: '/guide/NodeJs/NodeApi/01/01_02'}
       ]
     },
   ],
   '/guide/Frame/Vue/': [
     {
-      text: '基础使用',
+      text: 'Vue',
       items: [
-        { text: '指令使用', link: '/guide/Frame/Vue/01/01_00' },
-        { text: '数据绑定', link: '/guide/Frame/Vue/01/01_01' },
-        { text: '事件绑定', link: '/guide/Frame/Vue/01/01_02' },
-        { text: '样式绑定', link: '/guide/Frame/Vue/01/01_03' },
-        { text: '列表渲染', link: '/guide/Frame/Vue/01/01_04' },
-        { text: '条件渲染', link: '/guide/Frame/Vue/01/01_05' },
-      ]
-    },
-    {
-      text: '核心库',
-      items: [
-        { text: 'vuex', link: '/guide/Frame/Vue/02/02_00' },
+        { text: '基础语法', link: '/guide/Frame/Vue/01/01_00' },
+        { text: 'Vuex', link: '/guide/Frame/Vue/01/01_01' },
       ]
     }
   ],
