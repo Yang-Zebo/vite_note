@@ -87,10 +87,19 @@ const sidebar = {
         {
           text: '运算符',
           link: '/guide/JavaScript/ECMAScript/01/01_05'
+        }
+      ]
+    },
+    {
+      text: 'ECMAScript标准库',
+      item: [
+        {
+          text: 'Object 对象',
+          link: '/guide/JavaScript/ECMAScript/05/05_00'
         },
         {
-          text: '标准库',
-          link: '/guide/JavaScript/ECMAScript/01/01_06'
+          text: '对象的属性描述对象',
+          link: '/guide/JavaScript/ECMAScript/05/05_01'
         }
       ]
     },
