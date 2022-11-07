@@ -100,6 +100,42 @@ const sidebar = {
         {
           text: '对象的属性描述对象',
           link: '/guide/JavaScript/ECMAScript/05/05_01'
+        },
+        {
+          text: 'Array 对象',
+          link: '/guide/JavaScript/ECMAScript/05/05_02'
+        },
+        {
+          text: '包装对象',
+          link: '/guide/JavaScript/ECMAScript/05/05_03'
+        },
+        {
+          text: 'Boolean 对象',
+          link: '/guide/JavaScript/ECMAScript/05/05_04'
+        },
+        {
+          text: 'Number 对象',
+          link: '/guide/JavaScript/ECMAScript/05/05_05'
+        },
+        {
+          text: 'String 对象',
+          link: '/guide/JavaScript/ECMAScript/05/05_06'
+        },
+        {
+          text: 'Math 对象',
+          link: '/guide/JavaScript/ECMAScript/05/05_07'
+        },
+        {
+          text: 'Date 对象',
+          link: '/guide/JavaScript/ECMAScript/05/05_08'
+        },
+        {
+          text: 'RegExp 对象',
+          link: '/guide/JavaScript/ECMAScript/05/05_09'
+        },
+        {
+          text: 'JSON 对象',
+          link: '/guide/JavaScript/ECMAScript/05/05_10'
         }
       ]
     },
