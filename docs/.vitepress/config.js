@@ -92,7 +92,7 @@ const sidebar = {
     },
     {
       text: 'ECMAScript标准库',
-      item: [
+      items: [
         {
           text: 'Object 对象',
           link: '/guide/JavaScript/ECMAScript/05/05_00'
