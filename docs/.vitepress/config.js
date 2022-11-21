@@ -11,7 +11,7 @@ const nav = [
           },
           {
             text: '拓展',
-            link: '/guide/JavaScript/ECMAScript/Expand/04/04_00'
+            link: '/guide/JavaScript/ECMAScript/Expand/01/01_00'
           }
         ]
       },
