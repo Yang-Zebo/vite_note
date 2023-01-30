@@ -223,6 +223,10 @@ const sidebar = {
         {
           text: '文件下载',
           link: '/guide/JavaScript/ECMAScript/Expand/01/01_00'
+        },
+        {
+          text: '解析excel',
+          link: '/guide/JavaScript/ECMAScript/Expand/01/01_01'
         }
       ]
     },
@@ -262,6 +266,10 @@ const sidebar = {
         {
           text: '前端存储',
           link: '/guide/JavaScript/ECMAScript/Expand/04/04_09'
+        },
+        {
+          text: '手写Promise',
+          link: '/guide/JavaScript/ECMAScript/Expand/04/04_10'
         }
       ]
     },
