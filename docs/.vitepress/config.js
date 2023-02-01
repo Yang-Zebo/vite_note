@@ -227,6 +227,10 @@ const sidebar = {
         {
           text: '解析excel',
           link: '/guide/JavaScript/ECMAScript/Expand/01/01_01'
+        },
+        {
+          text: '生成PDF与打印',
+          link: '/guide/JavaScript/ECMAScript/Expand/01/01_02'
         }
       ]
     },
@@ -311,7 +315,8 @@ const sidebar = {
       items: [
         { text: '模块化与模块化', link: '/guide/NodeJs/NodeApi/01/01_00' },
         { text: '常用模块', link: '/guide/NodeJs/NodeApi/01/01_01' },
-        { text: '包管理工具', link: '/guide/NodeJs/NodeApi/01/01_02'}
+        { text: '包管理工具', link: '/guide/NodeJs/NodeApi/01/01_02'},
+        { text: '创建 node 服务器', link: '/guide/NodeJs/NodeApi/01/01_03'}
       ]
     },
   ],
