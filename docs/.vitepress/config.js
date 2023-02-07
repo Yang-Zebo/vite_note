@@ -326,6 +326,7 @@ const sidebar = {
       items: [
         { text: '基础语法', link: '/guide/Frame/Vue/01/01_00' },
         { text: 'Vuex', link: '/guide/Frame/Vue/01/01_01' },
+        { text: 'Vue响应式原理', link: '/guide/Frame/Vue/01/01_02' }
       ]
     }
   ],
