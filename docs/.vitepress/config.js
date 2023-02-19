@@ -5,7 +5,7 @@ const nav = [
       {
         text: 'ECMAScript',
         items: [
-          { 
+          {
             text: '语法',
             link: '/guide/JavaScript/ECMAScript/Grammar/01/01_00'
           },
@@ -142,7 +142,10 @@ const sidebar = {
     {
       text: 'ECMAScript进阶',
       items: [
-        { text: '变量声明', link: '/guide/JavaScript/ECMAScript/Grammar/02/02_00' },
+        {
+          text: '变量声明',
+          link: '/guide/JavaScript/ECMAScript/Grammar/02/02_00'
+        },
         {
           text: '结构赋值',
           link: '/guide/JavaScript/ECMAScript/Grammar/02/02_01'
@@ -208,7 +211,10 @@ const sidebar = {
           text: 'Reflect 对象',
           link: '/guide/JavaScript/ECMAScript/Grammar/03/03_05'
         },
-        { text: 'Proxy 对象', link: '/guide/JavaScript/ECMAScript/Grammar/03/03_06' },
+        {
+          text: 'Proxy 对象',
+          link: '/guide/JavaScript/ECMAScript/Grammar/03/03_06'
+        },
         {
           text: 'Generator 与 async',
           link: '/guide/JavaScript/ECMAScript/Grammar/03/03_07'
@@ -231,6 +237,10 @@ const sidebar = {
         {
           text: '生成PDF与打印',
           link: '/guide/JavaScript/ECMAScript/Expand/01/01_02'
+        },
+        {
+          text: '数据可视化面板',
+          link: '/guide/JavaScript/ECMAScript/Expand/01/01_03'
         }
       ]
     },
@@ -241,12 +251,18 @@ const sidebar = {
           text: 'this 指向',
           link: '/guide/JavaScript/ECMAScript/Expand/04/04_00'
         },
-        { text: '内存相关', link: '/guide/JavaScript/ECMAScript/Expand/04/04_01' },
+        {
+          text: '内存相关',
+          link: '/guide/JavaScript/ECMAScript/Expand/04/04_01'
+        },
         {
           text: '深浅拷贝',
           link: '/guide/JavaScript/ECMAScript/Expand/04/04_02'
         },
-        { text: '原型与原型链', link: '/guide/JavaScript/ECMAScript/Expand/04/04_03' },
+        {
+          text: '原型与原型链',
+          link: '/guide/JavaScript/ECMAScript/Expand/04/04_03'
+        },
         {
           text: '闭包与递归',
           link: '/guide/JavaScript/ECMAScript/Expand/04/04_04'
@@ -276,7 +292,7 @@ const sidebar = {
           link: '/guide/JavaScript/ECMAScript/Expand/04/04_10'
         }
       ]
-    },
+    }
   ],
   '/guide/JavaScript/WebApi/': [
     {
@@ -285,15 +301,16 @@ const sidebar = {
         { text: 'DOM 概述', link: '/guide/JavaScript/WebApi/01/01_00' },
         { text: 'Node 接口', link: '/guide/JavaScript/WebApi/01/01_01' },
         { text: '节点集合接口', link: '/guide/JavaScript/WebApi/01/01_02' },
-        { text: 'ParentNode 与 ChildNode 接口', link: '/guide/JavaScript/WebApi/01/01_03' },
-        { text: 'Document 节点', link: '/guide/JavaScript/WebApi/01/01_04' },
+        {
+          text: 'ParentNode 与 ChildNode 接口',
+          link: '/guide/JavaScript/WebApi/01/01_03'
+        },
+        { text: 'Document 节点', link: '/guide/JavaScript/WebApi/01/01_04' }
       ]
     },
     {
       text: 'BOM',
-      items: [
-        { text: '简介', link: '/guide/JavaScript/WebApi/02/02_00' }
-      ]
+      items: [{ text: '简介', link: '/guide/JavaScript/WebApi/02/02_00' }]
     },
     {
       text: '事件',
@@ -305,9 +322,9 @@ const sidebar = {
         { text: '键盘事件', link: '/guide/JavaScript/WebApi/03/03_04' },
         { text: '表单事件', link: '/guide/JavaScript/WebApi/03/03_05' },
         { text: '触摸事件', link: '/guide/JavaScript/WebApi/03/03_06' },
-        { text: '其他事件', link: '/guide/JavaScript/WebApi/03/03_07' },
+        { text: '其他事件', link: '/guide/JavaScript/WebApi/03/03_07' }
       ]
-    },
+    }
   ],
   '/guide/NodeJs/NodeApi/': [
     {
@@ -315,10 +332,10 @@ const sidebar = {
       items: [
         { text: '模块化与模块化', link: '/guide/NodeJs/NodeApi/01/01_00' },
         { text: '常用模块', link: '/guide/NodeJs/NodeApi/01/01_01' },
-        { text: '包管理工具', link: '/guide/NodeJs/NodeApi/01/01_02'},
-        { text: '创建 node 服务器', link: '/guide/NodeJs/NodeApi/01/01_03'}
+        { text: '包管理工具', link: '/guide/NodeJs/NodeApi/01/01_02' },
+        { text: '创建 node 服务器', link: '/guide/NodeJs/NodeApi/01/01_03' }
       ]
-    },
+    }
   ],
   '/guide/Frame/Vue/': [
     {
@@ -337,7 +354,7 @@ const sidebar = {
         { text: 'Git 使用', link: '/guide/Others/01/01_00' },
         { text: '学习网站', link: '/guide/Others/01/01_01' }
       ]
-    },
+    }
   ]
 }
 
