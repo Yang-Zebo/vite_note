@@ -19,12 +19,8 @@ const nav = [
         text: 'WebApi',
         items: [
           {
-            text: 'DOM',
+            text: 'DOM & BOM',
             link: '/guide/JavaScript/WebApi/01/01_00'
-          },
-          {
-            text: 'BOM',
-            link: '/guide/JavaScript/WebApi/02/02_00'
           },
           {
             text: '事件',
@@ -36,7 +32,16 @@ const nav = [
   },
   {
     text: 'NodeJS',
-    link: '/guide/NodeJs/NodeApi/01/01_00'
+    items: [
+      {
+        text: 'node 相关',
+        link: '/guide/NodeJs/NodeApi/01/01_00'
+      },
+      {
+        text: 'SQL 相关',
+        link: '/guide/NodeJs/SQL/01/01_00'
+      }
+    ]
   },
   {
     text: 'Frame',
@@ -57,6 +62,10 @@ const nav = [
       {
         text: '知识补充',
         link: '/guide/Others/01/01_00'
+      },
+      {
+        text: 'webpack',
+        link: '/guide/Others/02/02_00'
       }
     ]
   }
@@ -294,7 +303,7 @@ const sidebar = {
       ]
     }
   ],
-  '/guide/JavaScript/WebApi/': [
+  '/guide/JavaScript/WebApi/01/': [
     {
       text: 'DOM',
       items: [
@@ -311,29 +320,42 @@ const sidebar = {
     {
       text: 'BOM',
       items: [{ text: '简介', link: '/guide/JavaScript/WebApi/02/02_00' }]
-    },
+    }
+  ],
+  '/guide/JavaScript/WebApi/03/': [
     {
       text: '事件',
       items: [
-        { text: '简介', link: '/guide/JavaScript/WebApi/03/03_00' },
-        { text: '事件模型', link: '/guide/JavaScript/WebApi/03/03_01' },
-        { text: 'Event 对象', link: '/guide/JavaScript/WebApi/03/03_02' },
-        { text: '鼠标事件', link: '/guide/JavaScript/WebApi/03/03_03' },
-        { text: '键盘事件', link: '/guide/JavaScript/WebApi/03/03_04' },
-        { text: '表单事件', link: '/guide/JavaScript/WebApi/03/03_05' },
-        { text: '触摸事件', link: '/guide/JavaScript/WebApi/03/03_06' },
-        { text: '其他事件', link: '/guide/JavaScript/WebApi/03/03_07' }
+        {
+          text: '事件处理',
+          link: '/guide/JavaScript/WebApi/03/03_00'
+        }
       ]
     }
   ],
   '/guide/NodeJs/NodeApi/': [
     {
-      text: 'NodeJs',
+      text: 'NodeJs基础',
       items: [
         { text: '模块化与模块化', link: '/guide/NodeJs/NodeApi/01/01_00' },
         { text: '常用模块', link: '/guide/NodeJs/NodeApi/01/01_01' },
-        { text: '包管理工具', link: '/guide/NodeJs/NodeApi/01/01_02' },
-        { text: '创建 node 服务器', link: '/guide/NodeJs/NodeApi/01/01_03' }
+        { text: '包管理工具', link: '/guide/NodeJs/NodeApi/01/01_02' }
+      ]
+    },
+    {
+      text: 'NodeJs服务器',
+      items: [
+        { text: '原生 node 服务器', link: '/guide/NodeJs/NodeApi/02/02_00' },
+        { text: 'express 服务器', link: '/guide/NodeJs/NodeApi/02/02_01' },
+        { text: 'koa 服务器', link: '/guide/NodeJs/NodeApi/02/02_02'}
+      ]
+    }
+  ],
+  '/guide/NodeJs/SQL/': [
+    {
+      text: 'SQL基础',
+      items: [
+        { text: 'SQL 安装与使用', link: '/guide/NodeJs/SQL/01/01_00' }
       ]
     }
   ],
@@ -347,12 +369,21 @@ const sidebar = {
       ]
     }
   ],
-  '/guide/Others/': [
+  '/guide/Others/01/': [
     {
       text: '知识补充',
       items: [
         { text: 'Git 使用', link: '/guide/Others/01/01_00' },
-        { text: '学习网站', link: '/guide/Others/01/01_01' }
+        { text: '工具网站', link: '/guide/Others/01/01_01' },
+        { text: '流媒体传输与协议', link: '/guide/Others/01/01_02' }
+      ]
+    }
+  ],
+  '/guide/Others/02/': [
+    {
+      text: 'webpack',
+      items: [
+        { text: 'webpack 基础', link: '/guide/Others/02/02_00' }
       ]
     }
   ]
