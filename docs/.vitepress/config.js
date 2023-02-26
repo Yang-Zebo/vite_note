@@ -383,7 +383,8 @@ const sidebar = {
     {
       text: 'webpack',
       items: [
-        { text: 'webpack 基础', link: '/guide/Others/02/02_00' }
+        { text: 'webpack 基础', link: '/guide/Others/02/02_00' },
+        { text: 'webpack 优化', link: '/guide/Others/02/02_01' }
       ]
     }
   ]
