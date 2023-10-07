@@ -404,7 +404,7 @@ export default {
       {icon: 'github', link: 'https://github.com/Yang-Zebo/vite_note'}
     ],
     footer: {
-      copyright: `Copyright © 2014-${new Date().getFullYear()} Evan You`
+      // copyright: `Copyright © 2014-${new Date().getFullYear()} Evan You`
     }
   }
 }
