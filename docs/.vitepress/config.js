@@ -23,7 +23,7 @@ const nav = [
             link: '/guide/JavaScript/WebApi/01/01_00'
           },
           {
-            text: '事件',
+            text: '事件相关',
             link: '/guide/JavaScript/WebApi/03/03_00'
           }
         ]
@@ -279,12 +279,7 @@ const sidebar = {
       items: [
         {text: 'DOM 概述', link: '/guide/JavaScript/WebApi/01/01_00'},
         {text: 'Node 接口', link: '/guide/JavaScript/WebApi/01/01_01'},
-        {text: '节点集合接口', link: '/guide/JavaScript/WebApi/01/01_02'},
-        {
-          text: 'ParentNode 与 ChildNode 接口',
-          link: '/guide/JavaScript/WebApi/01/01_03'
-        },
-        {text: 'Document 节点', link: '/guide/JavaScript/WebApi/01/01_04'}
+        {text: '节点集合接口', link: '/guide/JavaScript/WebApi/01/01_02'}
       ]
     },
     {
@@ -294,11 +289,39 @@ const sidebar = {
   ],
   '/guide/JavaScript/WebApi/03/': [
     {
-      text: '事件',
+      text: '事件相关',
       items: [
         {
           text: '事件处理',
           link: '/guide/JavaScript/WebApi/03/03_00'
+        },
+        {
+          text: '事件模型',
+          link: '/guide/JavaScript/WebApi/03/03_01'
+        },
+        {
+          text: 'Event 对象',
+          link: '/guide/JavaScript/WebApi/03/03_02'
+        },
+        {
+          text: '鼠标事件',
+          link: '/guide/JavaScript/WebApi/03/03_03'
+        },
+        {
+          text: '键盘事件',
+          link: '/guide/JavaScript/WebApi/03/03_04'
+        },
+        {
+          text: '表单事件',
+          link: '/guide/JavaScript/WebApi/03/03_05'
+        },
+        {
+          text: '触摸事件',
+          link: '/guide/JavaScript/WebApi/03/03_06'
+        },
+        {
+          text: '其他事件',
+          link: '/guide/JavaScript/WebApi/03/03_07'
         }
       ]
     }
