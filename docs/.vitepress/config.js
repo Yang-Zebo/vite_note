@@ -17,16 +17,7 @@ const nav = [
       },
       {
         text: 'WebApi',
-        items: [
-          {
-            text: 'DOM & BOM',
-            link: '/guide/JavaScript/WebApi/01/01_00'
-          },
-          {
-            text: '事件相关',
-            link: '/guide/JavaScript/WebApi/03/03_00'
-          }
-        ]
+        link: '/guide/JavaScript/WebApi/BOMDOM/01/01_00'
       }
     ]
   },
@@ -273,21 +264,19 @@ const sidebar = {
       ]
     }
   ],
-  '/guide/JavaScript/WebApi/01/': [
+  '/guide/JavaScript/WebApi/': [
     {
       text: 'DOM',
       items: [
-        {text: 'DOM 概述', link: '/guide/JavaScript/WebApi/01/01_00'},
-        {text: 'Node 接口', link: '/guide/JavaScript/WebApi/01/01_01'},
-        {text: '节点集合接口', link: '/guide/JavaScript/WebApi/01/01_02'}
+        {text: 'DOM 概述', link: '/guide/JavaScript/WebApi/BOMDOM/01/01_00'},
+        {text: 'Node 接口', link: '/guide/JavaScript/WebApi/BOMDOM/01/01_01'},
+        {text: '节点集合接口', link: '/guide/JavaScript/WebApi/BOMDOM/01/01_02'}
       ]
     },
     {
       text: 'BOM',
-      items: [{text: '简介', link: '/guide/JavaScript/WebApi/02/02_00'}]
-    }
-  ],
-  '/guide/JavaScript/WebApi/03/': [
+      items: [{text: 'BOM概述', link: '/guide/JavaScript/WebApi/BOMDOM/02/02_00'}]
+    },
     {
       text: '事件相关',
       items: [
