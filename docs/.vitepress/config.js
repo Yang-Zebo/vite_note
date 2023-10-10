@@ -275,7 +275,10 @@ const sidebar = {
     },
     {
       text: 'BOM',
-      items: [{text: 'BOM概述', link: '/guide/JavaScript/WebApi/BOMDOM/02/02_00'}]
+      items: [
+        {text: 'BOM概述', link: '/guide/JavaScript/WebApi/BOMDOM/02/02_00'},
+        {text: '其他对象', link: '/guide/JavaScript/WebApi/BOMDOM/02/02_01'}
+      ]
     },
     {
       text: '事件相关',
