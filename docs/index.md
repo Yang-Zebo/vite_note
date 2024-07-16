@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 开始查看
-      link: /guide/JavaScript/ECMAScript/01/01_00
+      link: /guide/JavaScript/JiChu/RuMen/00
     - theme: alt
       text: GitHub
       link: https://github.com/Yang-Zebo
