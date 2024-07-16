@@ -1,0 +1,46 @@
+.VPNav {
+  .logo {
+    height: 40px;
+  }
+}
+
+.VPContent {
+  height: calc(100vh - 100px);
+  .VPHero {
+    padding: 80px 0 30px;
+  }
+  /* 副标题样式修改 */
+  .container {
+    .text {
+      font-size: 44px;
+    }
+
+    .VPImage {
+      border-radius: 30px;
+      overflow: hidden;
+      margin-top: 30px;
+    }
+
+    .clip {
+      -webkit-text-fill-color: transparent;
+      /* 将背景裁剪为文本区域 */
+      background-clip: text;
+      /* 设置渐变背景 */
+      background-image: linear-gradient(to bottom right, #004bff, #00c7ff);
+      font-weight: bolder;
+    }
+  }
+}
+
+/**
+  暗黑模式样式修改
+**/
+.dark {
+  .VPNav .VPNavBar {
+    background-color: #1e1e20;
+    border-bottom: 1px solid #000;
+  }
+}
+.VPFooter {
+  padding: 15px 0 !important;
+}

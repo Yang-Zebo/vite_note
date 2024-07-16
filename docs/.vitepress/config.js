@@ -401,8 +401,7 @@ const sidebar = {
 
 export default {
   lang: 'zh-CN',
-  title: 'yzb-note', // 站点标题
-  description: 'Sorting out personal front-end knowledge and notes', // 网站的描述。这将呈现为<meta>页面 HTML 中的标签
+  title: 'Home', // 站点标题
   lastUpdated: true, // 最近更新时间
   ignoreDeadLinks: true,
   head: [
@@ -415,11 +414,13 @@ export default {
     logo: '/images/logo.jpg',
     nav,
     sidebar,
+    lastUpdatedText: "最近更新",
     socialLinks: [
       {icon: 'github', link: 'https://github.com/Yang-Zebo/vite_note'}
     ],
     footer: {
-      // copyright: `Copyright © 2014-${new Date().getFullYear()} Evan You`
+      message: "Released under the MIT License",
+      copyright: `Copyright © 2022-${new Date().getFullYear()} Yang Zebo`
     }
   }
 }
