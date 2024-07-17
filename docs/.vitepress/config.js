@@ -21,20 +21,20 @@ const nav = [
     ]
   },
   {
-    text: 'NodeJS',
+    text: '后端相关',
     items: [
       {
-        text: 'node 相关',
+        text: 'NodeJS',
         link: '/guide/NodeJs/NodeApi/01/01_00'
       },
       {
-        text: 'SQL 相关',
+        text: 'SQL',
         link: '/guide/NodeJs/SQL/01/01_00'
       }
     ]
   },
   {
-    text: 'Frame',
+    text: '前端框架',
     items: [
       {
         text: 'Vue',
@@ -47,15 +47,15 @@ const nav = [
     ]
   },
   {
-    text: 'Others',
+    text: '其他要点',
     items: [
       {
-        text: '知识补充',
-        link: '/guide/Others/Expand/01/01_00'
+        text: '补充与拓展',
+        link: '/guide/Others/Expand/00'
       },
       {
-        text: 'webpack',
-        link: '/guide/Others/Webpack/02/02_00'
+        text: 'Webpack',
+        link: '/guide/Others/Webpack/00'
       }
     ]
   }
@@ -322,9 +322,9 @@ const sidebar = {
     {
       text: 'NodeJs服务器',
       items: [
-        {text: '原生 node 服务器', link: '/guide/NodeJs/NodeApi/02/02_00'},
-        {text: 'express 服务器', link: '/guide/NodeJs/NodeApi/02/02_01'},
-        {text: 'koa 服务器', link: '/guide/NodeJs/NodeApi/02/02_02'}
+        {text: '原生服务器', link: '/guide/NodeJs/NodeApi/02/02_00'},
+        {text: 'Express服务器', link: '/guide/NodeJs/NodeApi/02/02_01'},
+        {text: 'Koa服务器', link: '/guide/NodeJs/NodeApi/02/02_02'}
       ]
     }
   ],
@@ -332,7 +332,7 @@ const sidebar = {
     {
       text: 'SQL基础',
       items: [
-        {text: 'SQL 安装与使用', link: '/guide/NodeJs/SQL/01/01_00'}
+        {text: 'SQL安装与使用', link: '/guide/NodeJs/SQL/01/01_00'}
       ]
     }
   ],
@@ -342,50 +342,33 @@ const sidebar = {
       items: [
         {text: '基础语法', link: '/guide/Frame/Vue/01/01_00'},
         {text: 'Vuex', link: '/guide/Frame/Vue/01/01_01'},
-        {text: 'Vue响应式原理', link: '/guide/Frame/Vue/01/01_02'}
+        {text: 'Vue2响应式原理', link: '/guide/Frame/Vue/01/01_02'}
       ]
     }
   ],
   '/guide/Others/Expand/': [
     {
-      text: '知识补充',
+      text: '补充与拓展',
       items: [
-        {text: 'Git 使用', link: '/guide/Others/Expand/01/01_00'},
-        {text: '工具网站', link: '/guide/Others/Expand/01/01_01'},
-        {text: '流媒体传输与协议', link: '/guide/Others/Expand/01/01_02'},
-        {text: '内存相关', link: '/guide/Others/Expand/01/01_03'},
-        {text: '网络相关', link: '/guide/Others/Expand/01/01_04'},
-        {text: '前端存储', link: '/guide/Others/Expand/01/01_05'},
-      ]
-    },
-    {
-      text: '应用拓展',
-      items: [
-        {
-          text: '文件下载',
-          link: '/guide/Others/Expand/02/01_00'
-        },
-        {
-          text: '解析excel',
-          link: '/guide/Others/Expand/02/01_01'
-        },
-        {
-          text: '生成PDF与打印',
-          link: '/guide/Others/Expand/02/01_02'
-        },
-        {
-          text: '数据可视化面板',
-          link: '/guide/Others/Expand/02/01_03'
-        }
+        {text: 'Git 使用', link: '/guide/Others/Expand/00'},
+        {text: '工具网站', link: '/guide/Others/Expand/01'},
+        {text: '流媒体传输与协议', link: '/guide/Others/Expand/02'},
+        {text: '内存相关', link: '/guide/Others/Expand/03'},
+        {text: '网络相关', link: '/guide/Others/Expand/04'},
+        {text: '前端存储', link: '/guide/Others/Expand/05'},
+        {text: '文件下载', link: '/guide/Others/Expand/06'},
+        {text: '解析excel', link: '/guide/Others/Expand/07'},
+        {text: '生成PDF与打印', link: '/guide/Others/Expand/08'},
+        {text: '数据可视化面板', link: '/guide/Others/Expand/09'}
       ]
     }
   ],
   '/guide/Others/Webpack/': [
     {
-      text: 'webpack',
+      text: 'Webpack',
       items: [
-        {text: 'webpack 基础', link: '/guide/Others/Webpack/02/02_00'},
-        {text: 'webpack 优化', link: '/guide/Others/Webpack/02/02_01'}
+        {text: 'Webpack 基础', link: '/guide/Others/Webpack/00'},
+        {text: 'Webpack 优化', link: '/guide/Others/Webpack/01'}
       ]
     }
   ]
