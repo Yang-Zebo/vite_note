@@ -16,7 +16,11 @@ const nav = [
       },
       {
         text: 'WebApi',
-        link: '/guide/JavaScript/WebApi/Dom/01'
+        link: '/guide/JavaScript/WebApi/Dom/00'
+      },
+      {
+        text: 'TypeScript',
+        link: '/guide/JavaScript/Ts/JiChu/00'
       }
     ]
   },
@@ -306,6 +310,17 @@ const sidebar = {
         {
           text: '其他事件',
           link: '/guide/JavaScript/WebApi/ShiJian/07'
+        }
+      ]
+    }
+  ],
+  '/guide/JavaScript/Ts/': [
+    {
+      text: '基础知识',
+      items: [
+        {
+          text: '常用类型',
+          link: '/guide/JavaScript/Ts/JiChu/00'
         }
       ]
     }
