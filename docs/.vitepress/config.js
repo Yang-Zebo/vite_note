@@ -321,6 +321,10 @@ const sidebar = {
         {
           text: '常用类型',
           link: '/guide/JavaScript/Ts/JiChu/00'
+        },
+        {
+          text: '类型缩小',
+          link: '/guide/JavaScript/Ts/JiChu/01'
         }
       ]
     }
