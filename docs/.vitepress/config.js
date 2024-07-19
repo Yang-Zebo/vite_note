@@ -325,6 +325,10 @@ const sidebar = {
         {
           text: '类型缩小',
           link: '/guide/JavaScript/Ts/JiChu/01'
+        },
+        {
+          text: '函数类型',
+          link: '/guide/JavaScript/Ts/JiChu/02'
         }
       ]
     }
