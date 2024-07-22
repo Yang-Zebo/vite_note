@@ -274,6 +274,10 @@ const sidebarConfig = {
         {
           text: '对象类型',
           link: '/guide/JavaScript/Ts/JiChu/03'
+        },
+        {
+          text: 'Class-类',
+          link: '/guide/JavaScript/Ts/JiChu/04'
         }
       ]
     }
