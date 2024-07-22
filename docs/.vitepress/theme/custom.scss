@@ -45,3 +45,7 @@
 .VPFooter {
   padding: 15px 0 !important;
 }
+
+.vitepress-theme-default-content .custom-block .code {
+  max-width: 100%; /* 或者你想要的任何其他宽度 */
+}
