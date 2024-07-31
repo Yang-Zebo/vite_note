@@ -343,6 +343,20 @@ const sidebarConfig = {
         {text: 'Webpack 优化', link: '/guide/Others/Webpack/01'}
       ]
     }
+  ],
+  '/guide/Others/Build/': [
+    {
+      text: 'Vue3后台模板',
+      items: [
+        {text: '初始化项目', link: '/guide/Others/Build/Vue/00'},
+      ]
+    },
+    {
+      text: 'React后台模板',
+      items: [
+        {text: '初始化项目', link: '/guide/Others/Build/React/00'},
+      ]
+    }
   ]
 }
 export default sidebarConfig

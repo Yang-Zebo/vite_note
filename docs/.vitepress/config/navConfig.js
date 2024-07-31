@@ -60,6 +60,10 @@
       {
         text: 'Webpack',
         link: '/guide/Others/Webpack/00'
+      },
+      {
+        text: '从零搭建',
+        link: '/guide/Others/Build/Vue/00'
       }
     ]
   }
