@@ -349,6 +349,7 @@ const sidebarConfig = {
       text: 'Vue3后台模板',
       items: [
         {text: '初始化项目', link: '/guide/Others/Build/Vue/00'},
+        {text: '组件库配置', link: '/guide/Others/Build/Vue/01'},
       ]
     },
     {
