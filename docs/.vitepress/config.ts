@@ -6,6 +6,7 @@ export default defineConfig({
   lang: 'zh-CN',
   title: 'Web前端学习笔记',
   description: 'Web前端开发个人知识笔记，涵盖JavaScript、TypeScript、Vue、React等内容',
+  base: '/vite_note/',
   lastUpdated: true,
   ignoreDeadLinks: true,
   head: [
