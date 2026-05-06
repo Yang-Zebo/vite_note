@@ -3,6 +3,9 @@
 # 确保脚本抛出遇到的错误
 set -e
 
+# 从环境变量获取仓库地址,如果未设置则使用默认值
+REPO_URL=${DEPLOY_REPO_URL:-"https://github.com/Yang-Zebo/Yang-Zebo.github.io.git"}
+
 # 生成静态文件
 npm run build
 
@@ -13,7 +16,7 @@ git init
 git add -A
 git commit -m 'deploy'
 
-# 如果发布到 https://<USERNAME>.github.io  填写你刚刚创建的仓库地址
-git push -f https://github.com/Yang-Zebo/Yang-Zebo.github.io.git master
+# 发布到 GitHub Pages
+git push -f "$REPO_URL" master
 
 cd -
