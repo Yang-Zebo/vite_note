@@ -5,7 +5,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   lang: 'zh-CN',
   title: 'Web前端学习笔记',
-  description: 'Personal knowledge notes on web front-end development, covering JavaScript, TypeScript, Vue, React and more',
+  description: 'Web前端开发个人知识笔记，涵盖JavaScript、TypeScript、Vue、React等内容',
   lastUpdated: true,
   ignoreDeadLinks: true,
   head: [
@@ -16,7 +16,7 @@ export default defineConfig({
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:locale', content: 'zh_CN' }],
     ['meta', { property: 'og:site_name', content: 'Web前端学习笔记' }],
-    ['meta', { property: 'og:description', content: 'Personal knowledge notes on web front-end development, covering JavaScript, TypeScript, Vue, React and more' }],
+    ['meta', { property: 'og:description', content: 'Web前端开发个人知识笔记，涵盖JavaScript、TypeScript、Vue、React等内容' }],
   ],
   markdown: {
     lineNumbers: true,

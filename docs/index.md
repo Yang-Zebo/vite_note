@@ -15,7 +15,7 @@ hero:
       link: https://github.com/Yang-Zebo
 features:
 - title: Vue3
-  details: 渐进式、易于使用、高性能和多功能的 Javascript 框架,。
+  details: 渐进式、易于使用、高性能和多功能的 JavaScript 框架。
   link: https://zh-hk.vuejs.org/
   linkText: 了解更多
 - title: VitePress

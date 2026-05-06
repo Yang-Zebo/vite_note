@@ -134,17 +134,17 @@ const sidebarConfig: SidebarConfig = {
     {
       text: 'NodeJs基础',
       items: [
-        { text: '模块化与模块化', link: '/guide/NodeJs/NodeApi/01/01_00' },
-        { text: '常用模块', link: '/guide/NodeJs/NodeApi/01/01_01' },
-        { text: '包管理工具', link: '/guide/NodeJs/NodeApi/01/01_02' },
+        { text: '模块化与模块化', link: '/guide/NodeJs/NodeApi/01/00' },
+        { text: '常用模块', link: '/guide/NodeJs/NodeApi/01/01' },
+        { text: '包管理工具', link: '/guide/NodeJs/NodeApi/01/02' },
       ],
     },
     {
       text: 'NodeJs服务器',
       items: [
-        { text: '原生服务器', link: '/guide/NodeJs/NodeApi/02/02_00' },
-        { text: 'Express服务器', link: '/guide/NodeJs/NodeApi/02/02_01' },
-        { text: 'Koa服务器', link: '/guide/NodeJs/NodeApi/02/02_02' },
+        { text: '原生服务器', link: '/guide/NodeJs/NodeApi/02/00' },
+        { text: 'Express服务器', link: '/guide/NodeJs/NodeApi/02/01' },
+        { text: 'Koa服务器', link: '/guide/NodeJs/NodeApi/02/02' },
       ],
     },
   ],
@@ -152,7 +152,7 @@ const sidebarConfig: SidebarConfig = {
     {
       text: 'SQL基础',
       items: [
-        { text: 'SQL安装与使用', link: '/guide/NodeJs/SQL/01/01_00' },
+        { text: 'SQL安装与使用', link: '/guide/NodeJs/SQL/01/00' },
       ],
     },
   ],
@@ -160,9 +160,9 @@ const sidebarConfig: SidebarConfig = {
     {
       text: 'Vue',
       items: [
-        { text: '基础语法', link: '/guide/Frame/Vue/01/01_00' },
-        { text: 'Vuex', link: '/guide/Frame/Vue/01/01_01' },
-        { text: 'Vue2响应式原理', link: '/guide/Frame/Vue/01/01_02' },
+        { text: '基础语法', link: '/guide/Frame/Vue/01/00' },
+        { text: 'Vuex', link: '/guide/Frame/Vue/01/01' },
+        { text: 'Vue2响应式原理', link: '/guide/Frame/Vue/01/02' },
       ],
     },
   ],
