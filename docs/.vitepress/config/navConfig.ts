@@ -37,11 +37,11 @@ const navConfig: NavItem[] = [
     items: [
       {
         text: 'NodeJS',
-        link: '/guide/NodeJs/NodeApi/01/01_00',
+        link: '/guide/NodeJs/NodeApi/01/00',
       },
       {
         text: 'SQL',
-        link: '/guide/NodeJs/SQL/01/01_00',
+        link: '/guide/NodeJs/SQL/01/00',
       },
     ],
   },
@@ -50,11 +50,11 @@ const navConfig: NavItem[] = [
     items: [
       {
         text: 'Vue',
-        link: '/guide/Frame/Vue/01/01_00',
+        link: '/guide/Frame/Vue/01/00',
       },
       {
         text: 'React',
-        link: '/guide/Frame/React/01/01_00',
+        link: '/guide/Frame/React/01/00',
       },
     ],
   },

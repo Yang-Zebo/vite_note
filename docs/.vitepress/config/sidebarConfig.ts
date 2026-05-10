@@ -129,6 +129,16 @@ const sidebarConfig: SidebarConfig = {
         { text: 'Class-类', link: '/guide/JavaScript/TypeScript/Basic/04' },
       ],
     },
+    {
+      text: '进阶专题',
+      collapsed: true,
+      items: [
+        { text: '接口深入', link: '/guide/JavaScript/TypeScript/Advanced/00' },
+        { text: '泛型深入', link: '/guide/JavaScript/TypeScript/Advanced/01' },
+        { text: '装饰器', link: '/guide/JavaScript/TypeScript/Advanced/02' },
+        { text: '工具类型', link: '/guide/JavaScript/TypeScript/Advanced/03' },
+      ],
+    },
   ],
   '/guide/NodeJs/NodeApi/': [
     {
@@ -137,14 +147,16 @@ const sidebarConfig: SidebarConfig = {
         { text: '模块化与模块化', link: '/guide/NodeJs/NodeApi/01/00' },
         { text: '常用模块', link: '/guide/NodeJs/NodeApi/01/01' },
         { text: '包管理工具', link: '/guide/NodeJs/NodeApi/01/02' },
+        { text: '事件循环机制', link: '/guide/NodeJs/NodeApi/01/03' },
+        { text: '文件操作', link: '/guide/NodeJs/NodeApi/01/04' },
       ],
     },
     {
       text: 'NodeJs服务器',
       items: [
         { text: '原生服务器', link: '/guide/NodeJs/NodeApi/02/00' },
-        { text: 'Express服务器', link: '/guide/NodeJs/NodeApi/02/01' },
-        { text: 'Koa服务器', link: '/guide/NodeJs/NodeApi/02/02' },
+        { text: 'Express 服务器', link: '/guide/NodeJs/NodeApi/02/01' },
+        { text: 'Koa 服务器', link: '/guide/NodeJs/NodeApi/02/02' },
       ],
     },
   ],
