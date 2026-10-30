@@ -187,7 +187,10 @@ const sidebarConfig: SidebarConfig = {
   '/guide/NodeJs/SQL/': [
     {
       text: 'SQL基础',
-      items: [{ text: 'SQL安装与使用', link: '/guide/NodeJs/SQL/01/00' }],
+      items: [
+        { text: 'SQL安装与使用', link: '/guide/NodeJs/SQL/01/00' },
+        { text: '基础使用', link: '/guide/NodeJs/SQL/01/01' }
+      ],
     },
   ],
   '/guide/Frame/Vue/': [
@@ -197,6 +200,8 @@ const sidebarConfig: SidebarConfig = {
         { text: '基础语法', link: '/guide/Frame/Vue/01/00' },
         { text: 'Vuex', link: '/guide/Frame/Vue/01/01' },
         { text: 'Vue2响应式原理', link: '/guide/Frame/Vue/01/02' },
+        { text: 'Vue项目初始化', link: '/guide/Frame/Vue/01/03' },
+        { text: 'Vue组件库配置', link: '/guide/Frame/Vue/01/04' },
       ],
     },
   ],

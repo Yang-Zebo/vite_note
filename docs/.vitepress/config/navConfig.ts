@@ -68,7 +68,7 @@ const navConfig: NavItem[] = [
       {
         text: 'Webpack',
         link: '/guide/Others/Webpack/00',
-      },
+      }
     ],
   },
 ]
