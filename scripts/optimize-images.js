@@ -11,7 +11,7 @@ function getAllImages(dir, fileList = []) {
   if (!existsSync(dir)) return fileList
 
   const files = readdirSync(dir)
-  files.forEach(file => {
+  files.forEach((file) => {
     const filePath = join(dir, file)
     const stat = statSync(filePath)
     if (stat.isDirectory()) {
@@ -36,7 +36,9 @@ if (images.length === 0) {
 const totalSize = images.reduce((sum, img) => sum + img.size, 0)
 const maxSize = 500 * 1024 // 500KB warning threshold
 
-console.log(`Found ${images.length} images, total size: ${(totalSize / 1024).toFixed(2)} KB\n`)
+console.log(
+  `Found ${images.length} images, total size: ${(totalSize / 1024).toFixed(2)} KB\n`
+)
 
 console.log('📁 Image files:')
 images.forEach((img, index) => {

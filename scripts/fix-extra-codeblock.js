@@ -9,7 +9,7 @@ const docsDir = join(__dirname, '..', 'docs', 'guide')
 
 function fixExtraCodeBlock(filePath) {
   let content = readFileSync(filePath, 'utf-8')
-  
+
   const regex = /^---\n([\s\S]*?)---\n\n```\n(# .+)$/m
   if (regex.test(content)) {
     content = content.replace(regex, '---\n$1---\n\n$2')
@@ -21,10 +21,10 @@ function fixExtraCodeBlock(filePath) {
 
 function walkDir(dir, count = { fixed: 0 }) {
   const entries = readdirSync(dir, { withFileTypes: true })
-  
+
   for (const entry of entries) {
     const fullPath = join(dir, entry.name)
-    
+
     if (entry.isDirectory()) {
       walkDir(fullPath, count)
     } else if (entry.name.endsWith('.md')) {
@@ -34,10 +34,12 @@ function walkDir(dir, count = { fixed: 0 }) {
       }
     }
   }
-  
+
   return count
 }
 
-console.log('🔍 Searching for files with extra code block after frontmatter...\n')
+console.log(
+  '🔍 Searching for files with extra code block after frontmatter...\n'
+)
 const result = walkDir(docsDir)
 console.log(`\n✨ Done! Fixed ${result.fixed} files.`)

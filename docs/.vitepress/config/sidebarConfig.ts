@@ -18,7 +18,10 @@ const sidebarConfig: SidebarConfig = {
       collapsed: true,
       items: [
         { text: '简介', link: '/guide/JavaScript/Basic/GettingStarted/00' },
-        { text: '语句和变量', link: '/guide/JavaScript/Basic/GettingStarted/01' },
+        {
+          text: '语句和变量',
+          link: '/guide/JavaScript/Basic/GettingStarted/01',
+        },
         { text: '条件语句', link: '/guide/JavaScript/Basic/GettingStarted/02' },
         { text: '循环语句', link: '/guide/JavaScript/Basic/GettingStarted/03' },
         { text: '数据类型', link: '/guide/JavaScript/Basic/GettingStarted/04' },
@@ -47,7 +50,10 @@ const sidebarConfig: SidebarConfig = {
       collapsed: true,
       items: [
         { text: 'Object 对象', link: '/guide/JavaScript/Objects/Standard/00' },
-        { text: '对象的属性描述对象', link: '/guide/JavaScript/Objects/Standard/01' },
+        {
+          text: '对象的属性描述对象',
+          link: '/guide/JavaScript/Objects/Standard/01',
+        },
         { text: 'Array 对象', link: '/guide/JavaScript/Objects/Standard/02' },
         { text: '包装对象', link: '/guide/JavaScript/Objects/Standard/03' },
         { text: 'Boolean 对象', link: '/guide/JavaScript/Objects/Standard/04' },
@@ -64,13 +70,31 @@ const sidebarConfig: SidebarConfig = {
       collapsed: true,
       items: [
         { text: '基础补充', link: '/guide/JavaScript/Objects/Additional/00' },
-        { text: '对象创建与操作', link: '/guide/JavaScript/Objects/Additional/01' },
-        { text: 'Map,Set 相关', link: '/guide/JavaScript/Objects/Additional/02' },
-        { text: 'Symbol 类型', link: '/guide/JavaScript/Objects/Additional/03' },
-        { text: 'Promise 对象', link: '/guide/JavaScript/Objects/Additional/04' },
-        { text: 'Reflect 对象', link: '/guide/JavaScript/Objects/Additional/05' },
+        {
+          text: '对象创建与操作',
+          link: '/guide/JavaScript/Objects/Additional/01',
+        },
+        {
+          text: 'Map,Set 相关',
+          link: '/guide/JavaScript/Objects/Additional/02',
+        },
+        {
+          text: 'Symbol 类型',
+          link: '/guide/JavaScript/Objects/Additional/03',
+        },
+        {
+          text: 'Promise 对象',
+          link: '/guide/JavaScript/Objects/Additional/04',
+        },
+        {
+          text: 'Reflect 对象',
+          link: '/guide/JavaScript/Objects/Additional/05',
+        },
         { text: 'Proxy 对象', link: '/guide/JavaScript/Objects/Additional/06' },
-        { text: 'Generator 与 async', link: '/guide/JavaScript/Objects/Additional/07' },
+        {
+          text: 'Generator 与 async',
+          link: '/guide/JavaScript/Objects/Additional/07',
+        },
       ],
     },
   ],
@@ -163,9 +187,7 @@ const sidebarConfig: SidebarConfig = {
   '/guide/NodeJs/SQL/': [
     {
       text: 'SQL基础',
-      items: [
-        { text: 'SQL安装与使用', link: '/guide/NodeJs/SQL/01/00' },
-      ],
+      items: [{ text: 'SQL安装与使用', link: '/guide/NodeJs/SQL/01/00' }],
     },
   ],
   '/guide/Frame/Vue/': [

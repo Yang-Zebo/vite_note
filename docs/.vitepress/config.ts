@@ -5,19 +5,34 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   lang: 'zh-CN',
   title: 'Web前端学习笔记',
-  description: 'Web前端开发个人知识笔记，涵盖JavaScript、TypeScript、Vue、React等内容',
+  description:
+    'Web前端开发个人知识笔记，涵盖JavaScript、TypeScript、Vue、React等内容',
   base: '/vite_note/',
   lastUpdated: true,
   ignoreDeadLinks: true,
   head: [
     ['link', { rel: 'icon', href: '/images/logo.jpg' }],
-    ['meta', { name: 'keywords', content: 'JavaScript, TypeScript, Vue, React, 前端开发, Web开发, 学习笔记' }],
+    [
+      'meta',
+      {
+        name: 'keywords',
+        content:
+          'JavaScript, TypeScript, Vue, React, 前端开发, Web开发, 学习笔记',
+      },
+    ],
     ['meta', { name: 'author', content: 'Yang Zebo' }],
     ['meta', { name: 'robots', content: 'index,follow' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:locale', content: 'zh_CN' }],
     ['meta', { property: 'og:site_name', content: 'Web前端学习笔记' }],
-    ['meta', { property: 'og:description', content: 'Web前端开发个人知识笔记，涵盖JavaScript、TypeScript、Vue、React等内容' }],
+    [
+      'meta',
+      {
+        property: 'og:description',
+        content:
+          'Web前端开发个人知识笔记，涵盖JavaScript、TypeScript、Vue、React等内容',
+      },
+    ],
   ],
   markdown: {
     lineNumbers: true,

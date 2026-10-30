@@ -1,6 +1,12 @@
 #!/usr/bin/env node
 
-import { readdirSync, renameSync, readFileSync, writeFileSync, statSync } from 'fs'
+import {
+  readdirSync,
+  renameSync,
+  readFileSync,
+  writeFileSync,
+  statSync,
+} from 'fs'
 import { join, dirname } from 'path'
 import { fileURLToPath } from 'url'
 
@@ -42,10 +48,10 @@ const IMAGE_NAME_MAP = {
 
 function renameImagesInDir(dir, stats = { renamed: 0, updated: 0 }) {
   const entries = readdirSync(dir, { withFileTypes: true })
-  
+
   for (const entry of entries) {
     const fullPath = join(dir, entry.name)
-    
+
     if (entry.isDirectory()) {
       renameImagesInDir(fullPath, stats)
     } else if (/\.(png|jpg|jpeg|gif|webp)$/i.test(entry.name)) {
@@ -58,22 +64,25 @@ function renameImagesInDir(dir, stats = { renamed: 0, updated: 0 }) {
       }
     }
   }
-  
+
   return stats
 }
 
 function updateImageReferencesInFile(filePath) {
   let content = readFileSync(filePath, 'utf-8')
   let changed = false
-  
+
   for (const [oldName, newName] of Object.entries(IMAGE_NAME_MAP)) {
-    const regex = new RegExp(oldName.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g')
+    const regex = new RegExp(
+      oldName.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'),
+      'g'
+    )
     if (regex.test(content)) {
       content = content.replace(regex, newName)
       changed = true
     }
   }
-  
+
   if (changed) {
     writeFileSync(filePath, content, 'utf-8')
     return true
@@ -83,10 +92,10 @@ function updateImageReferencesInFile(filePath) {
 
 function walkAndUpdateRefs(dir, stats = { filesUpdated: 0 }) {
   const entries = readdirSync(dir, { withFileTypes: true })
-  
+
   for (const entry of entries) {
     const fullPath = join(dir, entry.name)
-    
+
     if (entry.isDirectory()) {
       walkAndUpdateRefs(fullPath, stats)
     } else if (entry.name.endsWith('.md')) {
@@ -95,7 +104,7 @@ function walkAndUpdateRefs(dir, stats = { filesUpdated: 0 }) {
       }
     }
   }
-  
+
   return stats
 }
 

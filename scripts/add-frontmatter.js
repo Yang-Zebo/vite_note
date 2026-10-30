@@ -39,17 +39,17 @@ function hasFrontmatter(content) {
 
 function processMdFile(filePath) {
   const content = readFileSync(filePath, 'utf-8')
-  
+
   if (hasFrontmatter(content)) return false
-  
+
   const title = getTitle(content)
   if (!title) return false
-  
+
   const tags = getTags(filePath)
-  
+
   const frontmatter = `---
 title: ${title}
-tags: [${tags.map(t => `"${t}"`).join(', ')}]
+tags: [${tags.map((t) => `"${t}"`).join(', ')}]
 ---
 
 `
@@ -59,10 +59,10 @@ tags: [${tags.map(t => `"${t}"`).join(', ')}]
 
 function walkDir(dir, count = { processed: 0, skipped: 0 }) {
   const entries = readdirSync(dir, { withFileTypes: true })
-  
+
   for (const entry of entries) {
     const fullPath = join(dir, entry.name)
-    
+
     if (entry.isDirectory()) {
       walkDir(fullPath, count)
     } else if (entry.name.endsWith('.md')) {
@@ -75,10 +75,12 @@ function walkDir(dir, count = { processed: 0, skipped: 0 }) {
       }
     }
   }
-  
+
   return count
 }
 
 console.log('📝 Adding frontmatter to markdown files...\n')
 const result = walkDir(docsDir)
-console.log(`\n✨ Done! Processed: ${result.processed}, Skipped (already has frontmatter): ${result.skipped}`)
+console.log(
+  `\n✨ Done! Processed: ${result.processed}, Skipped (already has frontmatter): ${result.skipped}`
+)
